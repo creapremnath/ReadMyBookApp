@@ -1,5 +1,0 @@
-Flask
-pytesseract
-PyPDF2
-gTTS
-Pillow
