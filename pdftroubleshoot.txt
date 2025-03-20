@@ -1,0 +1,3301 @@
+            BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+             BOOK TO AUDIO  CONVER SION SYSTEM  
+ 
+ 
+ 
+Abstract:  
+ The Project titled " Read My Book: Empowering the Visually Impaired with Book -to-Audio 
+Conversion using OCR and TTS " is an innovative application designed to assist visually impaired 
+individuals by converting printed books into easily accessible audio formats. The project utilizes 
+Optical Character Recognition (OCR)  technology to scan and extract text from physical boo ks 
+and images, converting them into machine -readable digital text. This digital text is then 
+processed by a Text -to-Speech (TTS)  engine, which converts the text into high -quality audio, 
+allowing users to listen to the content as an audiobook.  
+In addition, the application allows users to retrieve and download previously converted 
+audiobooks , offering a personalized library of accessible content. With the inclusion of various 
+voice accents and languages , users can select the voice that best suits their prefer ences, 
+improving the overall listening experience.  
+ 
+This project aims to provide a seamless, user -friendly platform that enhances the independence 
+of visually impaired individuals, enabling them to enjoy books and educational content without 
+barr iers. 
+ 
+ 
+ 
+ 
+ 
+Software Used:  
+Operating System  Windows and Linux  
+Front -End HTML, CSS  and JavaScript  (React JS)  
+Back -End Python - Fast API  
+Database Management  PostgreSQL  ABSTRACT  
+Beauty  Parlour  Management  System”  is a web -based  application  with  appointment  
+scheduling  functionality.  It provides  the interface  between  the salon  and clients.  In this web  
+application clients take an appointment online and parlour  administrators approves and 
+cancel  
+that appointment.  
+This  website  system  is connected  to users  & beaut y parlours  in an online  platform  users  ca
+n 
+write  and read  the review  of the Beauty  Parlour  Management  System.  Beauty  Parlour  can 
+also  book  the appointments  for the customers.  The users  of the system  include  the custome
+rs 
+where  they  can register  initially  with the minimum  details  and will be allowed  to make  an 
+appointment.  
+The system  has 2  Panels 1st  is Admin  Panel & 2nd  is User  Panel. The user  can 
+make  meeting  
+with  the admin  of parlour  & therefore  admin  approves  it. All activities  are creating  
+appointment  like choose  service,  date,  time  are going  to be record  in the database  for the 
+events.  
+All these  activities  of creating  appointments  like choosing  service  also  as date  and time  are 
+going  to be recorded  within  the database  for all the events.  This  project  integrates  a login  
+panel  for a more  secure  system.  Moreover,  the system  also  provides  contact  details  in order  
+that  the user  has no difficulty  in searching  the parlour.  Besides,  the user  can visit  parlour  at
+ a 
+selected date and time because the system alread y records the appointment made by them.  
+This  abstract  provides  a concise  overview  of the Library  Management  System  project,  its 
+purpose,  and its potential  benefits  to libraries  and their  patrons.  It sets  the stage  for a more  
+detailed discussion within the full project report.  
+ 
+NFDP (National Fisheries Digital Platform)  
+ 
+NFDP is the scheme which comes under the Department of Fisheries under PM -MKSSY and a 
+sub scheme PMSSY  
+ 
+This registration is completely paperless  
+Who can register?  
+• Fisheries Producers  
+• Fish Processers  
+• Aquaculture and Marine Cultivation  
+• Logistics and Storage  • Tech and Equipment providers  
+• Sales and Marketing Professionals  
+• Advisory and Support services  
+• Workforce  
+ 
+Benefits of Registering  
+• Access financial assistance  
+• Sell your products  
+• Streamline documentation  
+• Apply for Insurance  
+ 
+Registration Module  
+Types of Registration  
+1. Individual Registration – Fish Farmers, fishers and other individual stakeholders in 
+the sector  
+2. Organizational Registration – Cooperatives, businesses, hatcheries, & fisheries -
+related enterpri ses 
+ 
+ 
+Individual Registration Requirements  
+1. Unique mobile number  
+2. 12-digit Aadhaar number  
+3. Aadhaar -linked mobile number  
+ 
+Fours steps to Individual Register on NFDP  
+1. Register using unique mobile number  
+2. Enter Aadhaar number and OTP validate using the Aadhaar linked mobile number  
+3. Complete the 4 -step Registration form  
+4. Submit and download your Provisional Certificate.  
+If any changes or update needed, you have 7 days to edit the given information.  Registration form Details  
+1. Personal Details  
+2. Permanent addres s 
+3. Professional Details  
+4. Bank details (Optional)  
+ 
+Personal Details  fields  
+Un editable fields ( Information fetch from Aadhaar Details):  
+1. Mobile Number  
+2. Aadhaar Number  
+3. Name of Individual  
+4. Gender  
+5. DOB  
+6. Father/Spouse Name  
+Mandatory fields (denoted by this symbol “*”):  
+1. Social Category  
+2. Marital Status  
+3. Qualification  
+4. Are you a divyang?  
+5. Are you listed with any Government or State entity in Fisheries Sector?  
+Optional fields:  
+1. Email  
+2. UAN (NDUW)  
+ 
+ 
+ 
+ 
+ 
+ 
+Permanent Address : 
+ Un editable fields (Information fetch from Aadhaar Details)  
+1. House No./Plot No. *  
+2. Pin code *  
+3. State/UT *  
+4. Country *  
+Mandatory fields (denoted by this symbol “*”):  
+1. District *  
+2. Sub District *  
+Optional fields:  
+1. Landmark  
+  
+Current Address:  
+ All are mandatory in current address, except landmark field  
+ 
+ 
+Professional Details : 
+Un editable fields (Information fetch from Aadhaar Details):  
+ 
+No un  editable fields there in Professional Details  
+Mandatory fields (denoted by this symbol “*”) : 
+• Occupation  
+• Typed of activities engaged in  
+• Types of engagement -full time/p art time  
+ 
+ 
+ 
+ 
+Optional fields:  
+• Species  
+• Type of assets owned/leased  
+ 
+  
+Occupation lists  (dropdown multi -selected options) : 
+• Bio-Technology unit owner/Enterprise utilizing aquatic organisms  
+• Brood Bank Operator  
+• Disease Diagnostic Lab owner  
+• Fish feed Producer  
+• Fish Processor  
+Fish 
+ 

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pdf into Audio</title>
+    <link rel ='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+      body{
+        background-color:#0b1725 ;
+        font-family: Lato, sans-serif;
+        background-image: url("/static/wallpaper/castle.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      body h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+p{
+color:white;
+font-weight:bold;
+}
+p1{
+color:white;
+font-weight:bold;
+position:absolute;
+top:122px;
+right:472px;
+}
+body h3{
+    color: #03b8ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:35px;
+}
+body h4{
+  color:white;
+}
+.upload{
+ color: rgb(149, 229, 255);
+ font-weight: bolder;
+}
+.backbutton {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+  margin: 5px;
+}
+.backbutton:hover {
+    background-color: #ba2200;
+    color: white;}
+
+.download {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #00a2ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  cursor: pointer;
+  margin: 5px;
+  font-weight:bold;
+  height:61px;
+}
+.download:hover {
+    background-color: #004186;
+    color: white;}
+
+.ca {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #4eaf04;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  cursor: pointer;
+  margin: 5px;
+   font-weight:bold;
+  height:61px;
+}
+.ca:hover {
+    background-color: #016601;
+    color: white;}
+    .toggle {
+      --width: 80px;
+      --height: calc(var(--width) / 3);
+
+      position: relative;
+      display: inline-block;
+      width: var(--width);
+      height: var(--height);
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+      border-radius: var(--height);
+      cursor: pointer;
+    }
+
+    .toggle input {
+      display: none;
+    }
+
+    .toggle .slider {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--height);
+      background-color: #ccc;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .toggle .slider::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: calc(var(--height));
+      height: calc(var(--height));
+      border-radius: calc(var(--height) / 2);
+      background-color: #fff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+      transition: all 0.4s ease-in-out;
+    }
+
+    .toggle input:checked+.slider {
+      background-color: #f37521;
+    }
+
+    .toggle input:checked+.slider::before {
+      transform: translateX(calc(var(--width) - var(--height)));
+    }
+
+    .toggle .labels {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 12px;
+      font-family: sans-serif;
+      transition: all 0.4s ease-in-out;
+      overflow: hidden;
+    }
+
+    .toggle .labels::after {
+      content: attr(data-off);
+      position: absolute;
+      right: 5px;
+      color: #4d4d4d;
+      opacity: 1;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+      transition: all 0.4s ease-in-out;
+    }
+
+    .toggle .labels::before {
+      content: attr(data-on);
+      position: absolute;
+      left: calc(var(--height) - var(--width) + 2px);
+      color: #ffffff;
+      opacity: 0;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+      transition: all 0.4s ease-in-out;
+    }
+
+    .toggle input:checked~.labels::after {
+      opacity: 0;
+      transform: translateX(calc(var(--width) - var(--height)));
+    }
+
+    .toggle input:checked~.labels::before {
+      opacity: 1;
+      transform: translateX(calc(var(--width) - var(--height)));
+    }
+  </style>
+</head>
+<body>
+  <center>
+      <h1>PDF to Voice Conversion</h1>
+  <h3>Upload a PDF</h3>
+          {% if message3 %}
+        <p1>{{ message3 }}</p1>
+    {% endif %}
+      <div class="upload">
+  <form action="/uploadpdf" method="POST" enctype="multipart/form-data">
+    <input type="file" name="PDF" style="
+    width: 326px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    position:absolute;
+    top: 214px;
+    left: 505px;">
+    <input type="submit" value="Upload" style="
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    position:absolute;
+    top:209px;
+    right: 376px;
+    background-color: white;
+    font-weight: bolder;">
+  </form></div>
+</br>
+  {% if pdf_path %}
+    <h2>Uploaded PDF:</h2>
+    <iframe id="myPDF" src="{{pdf_path}}" frameborder= "0" style="width:400px;height:400px"></iframe>
+  {% endif %}
+    </br>
+
+    </br>
+<form action="/ptv" method="POST" enctype="multipart/form-data">
+    <select name="option"  style="
+    width: 275px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;">
+    <option value="Select Accent">Select Your Accent:</option>
+
+    <!-- United States English -->
+    <option value="Joanna">English (United States) - Joanna</option>
+    <option value="Matthew">English (United States) - Matthew</option>
+    <option value="Ivy">English (United States) - Ivy</option>
+    <option value="Kendra">English (United States) - Kendra</option>
+    <option value="Kimberly">English (United States) - Kimberly</option>
+    <option value="Salli">English (United States) - Salli</option>
+
+    <!-- United Kingdom English -->
+    <option value="Amy">English (United Kingdom) - Amy</option>
+    <option value="Brian">English (United Kingdom) - Brian</option>
+    <option value="Emma">English (United Kingdom) - Emma</option>
+    <option value="Russell">English (United Kingdom) - Russell</option>
+
+    <!-- Australian English -->
+    <option value="Nicole">English (Australia) - Nicole</option>
+    <option value="Ruben">English (Australia) - Ruben</option>
+
+    <!-- Canadian English -->
+    <option value="Mia">English (Canada) - Mia</option>
+
+    <!-- Indian English -->
+    <option value="Aditi">English (India) - Aditi</option>
+    <option value="Raveena">English (India) - Raveena</option>
+
+    <!-- Irish English -->
+    <option value="Russell">English (Ireland) - Russell</option>
+
+    <!-- South African English -->
+    <option value="Tanya">English (South Africa) - Tanya</option>
+
+    <!-- New Zealand English -->
+    <option value="Aria">English (New Zealand) - Aria</option>
+  </select><br>
+    <br>
+    <br>
+   <button class="ca">Convert into audio <i class="fa fa-headphones" aria-hidden="true"></i></button>
+  </form>
+       {% if message1 %}
+        <p>{{ message1 }}</p>
+    {% endif %}
+    </br></br>
+  <audio controls>
+    <source src="{{ url_for('static', filename=audio_filename) }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    <br>
+    </br>
+      <a href="{{ url_for('static',filename=audio_filename) }}" download><button class="download">Download <i class="fa fa-download" aria-hidden="true"></i></button></a>
+    <br>
+      <br>
+        <br><br>
+        <br>
+      <br>
+        <br>
+        <a href="{{ url_for('readmybook') }}">
+          <button class="backbutton">
+              <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back
+          </button>
+      </a>
+    <br>
+    </center>
+</body>
+</html>

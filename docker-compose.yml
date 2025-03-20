@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: my_flask_app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env  # Load environment variables
+    volumes:
+      - ./databases:/app/databases  # Persist SQLite database
+      - ./static/images:/app/static/images
+      - ./static/audios:/app/static/audios
+      - ./static/pdfs:/app/static/pdfs
+      - ./static/tempaudios:/app/static/tempaudios
+    restart: unless-stopped

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel ='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#0b1725;
+  background-image: url("/static/wallpaper/castle1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+body h1{
+    color: #ffffff;
+    font-size: 60px;
+font-family: "Times New Roman", Times, serif;
+}
+body h4{
+    background-color:#7fff3a;
+    color: #000000;
+    padding: 7px;
+    font-size: 24px;
+    height:40px;
+}
+body h2{
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #222544;
+    height: auto;
+    width: 100vw;
+    font-family:"Open Sans";
+    color: #fff;
+}
+footer-content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight:600;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #222544;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.footer-content p{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 10px;
+
+}
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding:10px;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}
+img{
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.5s;
+}
+
+@keyframes example {
+  0%   {opacity:0;left:-200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+h1 {
+  cursor: default;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 10;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.3s ease infinite alternate;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h1 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+.front{
+    position: absolute;
+    left:50px;
+    top:100px;
+}
+.login{
+     background-color: rgb(255, 255, 255);
+ width:411px;
+ height:340px;
+    position: absolute;
+    right:261px;
+    top:200px;
+    border-radius: 5px;
+
+}
+.button1 {
+    background-color: #8c0191;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 7px;
+    width:380px;
+    padding: 16px 32px;
+    font-weight:bold;
+    font-size: 20px;
+  }
+
+  .button1:hover {
+    background-color:#560259;
+    color: white;
+  }
+  .button2 {
+    background-color: #323667;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 7px;
+    width:271px;
+    padding: 16px 32px;
+    font-weight:bold;
+    font-size: 16px;
+  }
+
+  .button2:hover {
+    background-color:#222544;
+    color: white;
+  }
+  .email{
+    padding: 16px 32px;
+    width:380px;
+    font-weight:bold;
+    font-size: 14px;
+
+  }
+.password{
+  padding: 16px 32px;
+    width:380px;
+    font-weight:bold;
+    font-size: 14px;
+
+}
+.checkbox{
+  position: absolute;
+  left:370px;
+  top:110px;
+  width:24px;
+  height: 24px;
+}
+h6{
+  color: rgb(106, 10, 67);
+  font-weight: bolder;
+  font-size: 22px;
+    position: absolute;
+    right:320px;
+    top: 144px;
+
+}
+Resources
+    </style>
+    <script>
+    function togglePasswordVisibility() {
+      var passwordInput = document.getElementById("password");
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+      } else {
+        passwordInput.type = "password";
+      }
+    }
+
+
+  </script>
+</head>
+<body>
+    <footer>
+        <div class="footer-content">
+            <h3>Read My Book</h3>
+<p>Our Mission is to Enhance the Reading and listening Habits of Users and to create our people's mental health better</p>
+</div>
+   <div class="footer-bottom">
+    <p>Copyright &copy; 2024 Read My Book | Designed by <span>Premnath Palanichamy</span></p>
+</div>
+    </footer>
+<div class="front">
+    <center>
+    <h1>  <span>R</span>
+  <span>e</span>
+  <span>a</span>
+  <span>d</span>
+          <span> </span>
+          <span>M</span>
+  <span>y</span>
+  <span> </span>
+      <span>B</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span></h1>
+    </br>
+    <h2>Make Your Own Audio Book </h2>
+    </br>
+
+        <div class="img">
+          <img src="{{url_for('static',filename='/wallpaper/purplen.png')}}" width="300px" height="300px" alt="purple logo">
+        </div>
+ </div>
+
+         {% if message4 %}
+        <h6>{{ message4 }}</h6>
+    {% endif %}
+        <div class="login">
+          <br>
+          <center> <form  action="/aut" method="POST">
+            <div><input class="email" name="e" placeholder="Email address or Phone number" required></div>
+            </br>
+           <div>
+  <input class="password"  name="p" placeholder="Password" type="password" id="password" required>
+  <input class="checkbox" type="checkbox" onclick="togglePasswordVisibility()"> </div>
+           </br><form action="/aut" method="post">
+              <button class="button1"> Log In </button></form></form>
+
+          </br>
+           <hr>
+           </br>
+              <div><form action="/signup" method="post"><button class="button2">Create new account</button></form></div>
+          </center>
+            </div>
+    </center>
+    </body>
+</html>
