@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File List with Audio Player</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            background-image: url("/static/wallpaper/study.png"); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        
+        .container {
+            width: 130%;
+            max-width: 1200px;
+            padding: 20px;
+            background:rgba(244, 247, 246, 0.78);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        .file-list {
+            flex: 1;
+            margin-right: 20px;
+            padding: 10px;
+            max-width: 300px;
+            border-right: 2px solid #ddd;
+            height: 70vh; /* Make it scrollable */
+            overflow-y: auto; /* Allow scrolling */
+            max-height: 400px; /* Optional: Limit the height */
+        }
+        
+        .file-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .file-list th, .file-list td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        
+        .file-list th {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .file-list td button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .file-list td button:hover {
+            background-color: #2980b9;
+        }
+        
+        .file-details {
+            flex: 2;
+            min-width: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            height: 70vh; /* Optional: Limit the height of file details */
+            overflow: auto; /* Enables scrolling for the file details */
+        }
+        
+        .file-content {
+            max-height: 400px; /* Optional: Set a max-height for scrolling */
+            overflow: auto; /* Enables scrolling for content */
+        }
+        
+        .audio-controls {
+            background-color: #f4f7f6;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .audio-controls:hover {
+            transform: scale(1.05);
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background-color: #ddd;
+            border-radius: 10px;
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .progress-bar::-webkit-slider-thumb {
+            width: 14px;
+            height: 14px;
+            background-color: #3498db;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .progress-bar::-webkit-slider-thumb:hover {
+            background-color: #2980b9;
+        }
+        
+        .progress-bar:focus {
+            background-color: #2980b9;
+        }
+        
+        .speed-control {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            width: 100%;
+        }
+        
+        .speed-control label {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        #speed {
+            width: 100%;
+            max-width: 200px;
+            padding: 8px;
+            background-color: #fff;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #333;
+            cursor: pointer;
+            transition: border-color 0.3s ease, background-color 0.3s ease;
+        }
+        
+        #speed:focus {
+            border-color: #2980b9;
+            background-color: #f4f7f6;
+        }
+        
+        #speed option {
+            background-color: #fff;
+            color: #333;
+        }
+        
+        @media (max-width: 600px) {
+            .audio-controls {
+                max-width: 100%;
+            }
+        
+            .speed-control {
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+            }
+        
+            #speed {
+                width: 48%;
+            }
+        }
+        
+        
+        .button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .button:hover {
+            background-color: #2980b9;
+        }
+        
+        .delete-btn {
+            background-color: #e74c3c;
+            color: white;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .delete-btn:hover {
+            background-color: #c0392b;
+        }
+        
+        .download-btn {
+            background-color: #27ae60;
+            color: white;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            background-color: #2ecc71;
+        }
+        
+        .scrollable-container {
+            width: 100%;
+            max-height: 400px;
+            overflow: auto; /* Enables scrolling */
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        img, video {
+            width: 100%;
+            object-fit: cover;
+        }
+        
+    </style>
+</head>
+<style>
+    /* Insert the updated CSS from above */
+</style>
+</head>
+<body>
+    <center>
+<div class="container">
+    <!-- Left Column: File List -->
+    <div class="file-list">
+        <h2>My Collections</h2>
+
+        <!-- Filter Dropdown -->
+        <div>
+            <label for="file-type-filter">Filter by Type:</label>
+            <select id="file-type-filter" onchange="applyFilter()">
+                <option value="all">All</option>
+                <option value="pdf">PDFs</option>
+                <option value="image">Images</option>
+            </select>
+        </div>        
+        <br>
+        <br>
+        
+        <table id="file-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="file-list-body">
+                <!-- Dynamic rows will be inserted here -->
+                {% for file in files %}
+                <tr data-type="{{ file.type }}">
+                    <td>{{ file.title }}</td>
+                    <td><button onclick="selectFile({{ loop.index0 }})">Select</button></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Right Column: File Details (Audio, Image/PDF) -->
+    <div class="file-details">
+        <h2 id="file-title">Select a File</h2>
+        <div id="file-content" class="file-content">
+            <!-- Image or PDF will be displayed here -->
+        </div>
+
+        <div class="audio-player-container">
+            <h3>Audio Player</h3>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mp3">
+            </audio>
+            <div class="audio-controls">
+                <input type="range" class="progress-bar" id="progress-bar" value="0" max="100" step="1">
+                <div class="speed-control">
+                    <label for="speed">Playback Speed:</label>
+                    <select id="speed" onchange="changeSpeed()">
+                        <option value="0.25">0.25x</option>
+                        <option value="0.50">0.5x</option>
+                        <option value="0.75">0.75x</option>
+                        <option value="1.0">1x</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x</option>
+                        <option value="1.75">1.75x</option>
+                        <option value="2.0">2x</option>
+                    </select>
+                </div>
+                <button class="button download-btn" id="download-btn">Download Audio</button>
+            </div>
+            <button class="button delete-btn" id="delete-btn">Delete File</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const files = {{ files | tojson }};
+    const fileListBody = document.getElementById('file-list-body');
+    const fileTitle = document.getElementById('file-title');
+    const fileContent = document.getElementById('file-content');
+    const audioPlayer = document.getElementById('audio-player');
+    const audioSource = document.getElementById('audio-source');
+    const progressBar = document.getElementById('progress-bar');
+    const downloadBtn = document.getElementById('download-btn');
+    const deleteBtn = document.getElementById('delete-btn');
+    const filterSelect = document.getElementById('file-type-filter');
+    let currentFileIndex = -1;
+
+
+    function applyFilter() {
+        const filter = filterSelect.value;
+        const rows = fileListBody.querySelectorAll('tr');
+        rows.forEach(row => {
+            const fileType = row.getAttribute('data-type');
+            if (filter === 'all' || fileType === filter) {
+                row.style.display = '';  // Show row
+            } else {
+                row.style.display = 'none';  // Hide row
+            }
+        });
+    }
+    
+    
+    function renderFileList() {
+        fileListBody.innerHTML = '';
+        files.forEach((file, index) => {
+            const row = document.createElement('tr');
+            row.setAttribute('data-type', file.type);  // This helps with filtering
+            row.innerHTML = `
+                <td>${file.title}</td>
+                <td><button onclick="selectFile(${index})">Select</button></td>
+            `;
+            fileListBody.appendChild(row);
+        });
+    }
+    applyFilter(); // Ensure the filter is applied after rendering the list
+    
+
+
+
+    
+
+
+
+    function selectFile(index) {
+        currentFileIndex = index;
+        const file = files[index];
+
+        // Display File Content
+        fileTitle.innerText = file.title;
+        if (file.type === 'image') {
+            fileContent.innerHTML = `<img src="${file.path}" alt="${file.title}">`;
+        } else if (file.type === 'pdf') {
+            fileContent.innerHTML = `<object data="${file.path}" type="application/pdf" width="100%" height="400px"></object>`;
+        }
+
+        // Set audio player source
+        audioSource.src = file.audio;
+        audioPlayer.load();
+        audioPlayer.play();
+
+        // Set up download functionality
+        downloadBtn.onclick = () => downloadAudio(file.audio);
+
+        // Set up delete functionality
+        deleteBtn.onclick = () => deleteFile(index);
+
+        // Reset the progress bar
+        progressBar.value = 0;
+    }
+
+    function changeSpeed() {
+        const speed = document.getElementById('speed').value;
+        audioPlayer.playbackRate = parseFloat(speed);
+    }
+
+    function downloadAudio(audioSrc) {
+        const a = document.createElement('a');
+        a.href = audioSrc;
+        a.download = audioSrc.split('/').pop();
+        a.click();
+    }
+
+    function deleteFile(index) {
+    const file = files[index];
+
+    // Send DELETE request to the backend with the file ID (or file identifier)
+    fetch('/deletefile', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            file_id: file.id // Assuming 'file.id' is the unique identifier for the file
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // If deletion is successful, update the client-side
+            files.splice(index, 1);
+            renderFileList();
+            fileTitle.innerText = "Select a File";
+            fileContent.innerHTML = "";
+            audioPlayer.pause();
+            audioSource.src = "";
+            progressBar.value = 0;
+        } else {
+            alert('Error deleting file');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error deleting file');
+    });
+}
+
+
+    // Update the progress bar as the audio plays
+    audioPlayer.addEventListener('timeupdate', function () {
+        const currentTime = audioPlayer.currentTime;
+        const duration = audioPlayer.duration;
+        const progress = (currentTime / duration) * 100;
+        progressBar.value = progress;
+    });
+
+    // Allow user to interact with the progress bar
+    progressBar.addEventListener('input', function () {
+        const value = progressBar.value;
+        const duration = audioPlayer.duration;
+        audioPlayer.currentTime = (value / 100) * duration;
+    });
+
+    // Initialize file list
+    renderFileList();
+</script>
+<br>
+</br>
+<a href="{{ url_for('readmybook') }}">
+    <button class="backbutton" style="
+        background-color:rgb(255, 89, 0); /* Bootstrap primary color */
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 4px 16px;
+        border-radius: 5px;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s ease;
+    ">
+        <i class="fa fa-chevron-circle-left" aria-hidden="true" style="margin-right: 8px;"></i> Back
+    </button>
+</a>
+
+
+</center>
+</body>
+</html>

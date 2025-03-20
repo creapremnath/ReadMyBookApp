@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read My Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <style>
+
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 40px 20px;
+    }
+    .card {
+        background-color: #ffffff;
+        color: #333;
+        text-align: center;
+        padding: 14px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+        animation: fadeIn 1.5s;
+    }
+    .card i {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color: #8c0191;
+    }
+    .card h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .card p {
+        font-size: 14px;
+        color: #666;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+      *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#0b1725;
+background-image: url("/static/wallpaper/castle1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+body h1{
+  color: #ffffff;
+  font-size: 60px;
+font-family: "Times New Roman", Times, serif;
+}
+body h4{
+  background-color:#7fff3a;
+  color: #000000;
+  padding: 7px;
+  font-size: 24px;
+  height:40px;
+}
+body h2{
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #222544;
+  height: auto;
+  width: 100vw;
+  font-family:"Open Sans";
+  color: #fff;
+}
+footer-content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight:600;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #222544;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.footer-content p{
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  margin: 10px;
+
+}
+.footer-bottom{
+  background: black;
+  width: 100vw;
+  padding:10px;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .5;
+  font-weight: 200;
+}
+button {
+  border: none;
+  color: white;
+  width:77px;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -78px -11px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  height: 40px;
+  background-color:  #FF4C4C;
+}
+
+img{
+  width: 350px;
+  height: 350px
+position: relative;
+animation-name: example;
+animation-duration: 1.5s;
+}
+
+
+@keyframes example {
+0%   {opacity:0;left:-200px; top:0px;}
+100% {left:0px; top:0px;}
+}
+
+h1 {
+cursor: default;
+top: 0;
+left: 0;
+right: 0;
+bottom: 10;
+width: 100%;
+height: 100px;
+margin: auto;
+display: block;
+}
+
+h1 span {
+position: relative;
+top: 20px;
+display: inline-block;
+-webkit-animation: bounce 0.3s ease infinite alternate;
+font-size: 80px;
+color: #fff;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+  0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+  0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+-webkit-animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3) {
+-webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4) {
+-webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(5) {
+-webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6) {
+-webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7) {
+-webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8) {
+-webkit-animation-delay: 0.2s;
+}
+
+h1 span:nth-child(9) {
+-webkit-animation-delay: 0.3s;
+}
+
+h1 span:nth-child(10) {
+-webkit-animation-delay: 0.4s;
+}
+
+h1 span:nth-child(11) {
+-webkit-animation-delay: 0.5s;
+}
+
+h1 span:nth-child(12) {
+-webkit-animation-delay: 0.6s;
+}
+
+h1 span:nth-child(13) {
+-webkit-animation-delay: 0.7s;
+}
+
+h1 span:nth-child(14) {
+-webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+100% {
+  top: -20px;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+    0 50px 25px rgba(0, 0, 0, 0.2);
+}
+}
+
+  </style>
+</head>
+<body>
+  <center>
+    <h1>
+        <span>R</span><span>e</span><span>a</span><span>d</span>
+        <span> </span>
+        <span>M</span><span>y</span>
+        <span> </span>
+        <span>B</span><span>o</span><span>o</span><span>k</span>
+    </h1>
+    <h2>Make Your Own Audio Book</h2>
+    <br>
+    <h2 style="color:yellow"> WELCOME BACK !</h2>
+    <h2 style="color:white">{{userdata['user_name']}}</h2>
+    <div class="img">
+        <img src="{{url_for('static', filename='/wallpaper/purplen.png')}}" alt="purple logo">
+    </div>
+    <h2 style="color:white;">~ Select Your Category ~</h2>
+
+    <div class="card-container">
+        <div class="card" onclick="window.location.href='/englishtovoice'">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <h3>English Book into Audio</h3>
+            <p>Convert English books into audio format seamlessly.</p>
+        </div>
+        <div class="card" onclick="window.location.href='/pdftovoice'">
+            <i class="fa fa-file-pdf" aria-hidden="true"></i>
+            <h3>PDF into Audio</h3>
+            <p>Transform your PDFs into immersive audio experiences.</p>
+        </div>
+        <div class="card" onclick="window.location.href='/myfiles'">
+            <i class="fa fa-folder-open" aria-hidden="true"></i>
+            <h3>My Files/My Book Collection</h3>
+            <p>Access your collection of books and audiobooks.</p>
+        </div>
+    </div>
+      <!-- Logout Button -->
+      <a href="{{ url_for('logout') }}">
+        <button>
+          Logout
+        </button>
+      </a>
+    <center>
+
+    <footer>
+        <p>Copyright &copy; 2024 Read My Book | Designed by <span>Premnath Palanichamy</span></p>
+    </footer>
+</body>
+</html>
